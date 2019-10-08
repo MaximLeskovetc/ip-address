@@ -1,0 +1,12 @@
+<div class="input">
+    <input class="input__field" #field1 (focus)="setFocusField($event)" (paste)="onPaste($event)"
+        (keyup)="onkeyup($event)" (keydown)="onkeydown($event)">
+    <span class="input__dot">.</span>
+    <input class="input__field" #field2 (focus)="setFocusField($event)" (keydown)="onkeydown($event)">
+    <span class="input__dot">.</span>
+    <input class="input__field" #field3 (focus)="setFocusField($event)" (keydown)="onkeydown($event)">
+    <span class="input__dot">.</span>
+    <input class="input__field" #field4 (focus)="setFocusField($event)" (keydown)="onkeydown($event)">
+    <span class="input__dot">:</span>
+    <input class="input__field" #field5 (focus)="setFocusField($event)" (keydown)="onkeydown($event)">
+</div>
